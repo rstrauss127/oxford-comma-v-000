@@ -6,9 +6,8 @@ def oxford_comma(array)
     y = x.split(" ")
 
     y.insert(y.size-1, "and")
-    y.each do |fruit|
-      y[fruit] + " "
-    end
+    y.collect {|fruit| fruit + " "} 
+    
 
 y
 
