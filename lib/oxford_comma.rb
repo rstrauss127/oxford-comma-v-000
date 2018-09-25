@@ -3,10 +3,9 @@ def oxford_comma(array)
   if array.size > 2
     array.insert(size-1, "and")
 
-    word = array.join(", ")
-    array_2 = word.split(" ")
+    array.join(", ")
 
-    final = array_2.join(" ")
+
     return final
 
 
