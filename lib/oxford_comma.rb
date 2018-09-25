@@ -3,8 +3,8 @@ def oxford_comma(array)
   size = array.size
   if array.size > 2
     x = array * " , "
-    y = x.split("")
-    y[y.size - 2] = ", and"
+    y = x.split(" ")
+
     y
 
 
