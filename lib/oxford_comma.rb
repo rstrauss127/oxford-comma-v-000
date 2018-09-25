@@ -8,6 +8,6 @@ def oxford_comma(array)
   elsif l == 2
     array.join(" and ")
   end
-    
+
 binding.pry
 end
