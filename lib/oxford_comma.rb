@@ -5,7 +5,7 @@ def oxford_comma(array)
     x = array * " , "
     y = x.split(" ")
 
-    y.insert(y.size-2, "and")
+    y.insert(y.size-1, "and")
 
 
 
